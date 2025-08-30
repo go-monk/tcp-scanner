@@ -1,5 +1,3 @@
-Source: https://github.com/go-monk/tcp-scanner
-
 It's quite common to need to discover which open (listening) ports exist on a remote system. This requirement can arise for security professionals during the reconnaissance phase of a penetration test. DevOps engineers might also need to determine what network services a system exposes—without logging into it.
 
 Let's build a tool to do just that. (Of course, several tools already exist for this, like nmap.) We'll focus specifically on the TCP protocol here.
